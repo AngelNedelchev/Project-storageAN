@@ -1,0 +1,170 @@
+.storage1 {
+  margin: 10px;
+}
+
+.btn1:hover {
+  cursor: pointer;
+}
+
+/* TABS MARKUP */
+.tabs1 {
+  background-color: #E6E6E6;
+}
+
+.tablink1 {
+  color: #253544;
+}
+
+.tablink1:hover {
+  color: #65CDC5;
+}
+
+.tabcontent1 {
+  margin-top: 30px;
+}
+
+/* "SEARCH" tab */
+.dropdown-menu .form-check:hover{
+  background-color: rgba(4, 142, 255, 0.26);
+}
+
+.dropdown-menu{
+  font-size: 20px;
+}
+
+#search1{
+  height: 82vh;
+}
+
+#autocompleteautocomplete-list{
+  background-color: #fff;
+  border: 1px solid rgba(82, 82, 82, 0.411);
+}
+
+#autocompleteautocomplete-list div{
+  border-bottom: 2px solid rgba(0, 0, 0, 0.212);
+
+}
+#search1 .input-group{
+  margin: auto;
+}
+
+.tabc1{
+  margin-top: 10px;
+}
+
+#autocomplete {
+  background-color: #0000002f;
+}
+
+#autocompleteautocomplete-list img{
+  width: 50px;
+  height: 50px;
+}
+
+#autocompleteautocomplete-list {
+  font-size: 25px;
+}
+
+.abc {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* NEW */
+.customfile1 .custom-file-label::after {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* "DOWNLOAD" tab */
+.tabc3 {
+  height: auto;
+}
+
+.download-box {
+  overflow-x: hidden;
+}
+
+.download-height {
+  max-height: 70vh;
+}
+
+.overflow-download {
+  overflow-y: scroll;
+}
+
+.sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+.card-download {
+  border: none;
+}
+
+.filter-card {
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+#wrapper-download {
+  margin-left: -15rem;
+  transition: margin 0.25s ease-out;
+}
+
+#wrapper-download.toggled {
+  margin-left: 0;
+}
+
+/* "ADMIN" tab */
+.contentcontainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon1 {
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  font-size: 100px;
+}
+
+.icon1:hover {
+  cursor: pointer;
+}
+
+.adminbtn1 {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminbutton1{
+  padding: 0;
+  color: #485057;
+}
+
+.adminbutton1:hover{
+  padding: 0;
+  color: #485057;
+  font-size: 15px;
+}
+
+.adminbutton1:active {
+  padding: 0;
+  color: #485057;
+  font-size: 14px;
+}
+
+/* "ADMIN" tab POPUP SCREEN */
+.modaldialog1 {
+  max-width: 90%;
+  height: auto;
+}
