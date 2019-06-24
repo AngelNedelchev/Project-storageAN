@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
+
   <title>Bootstrap Example Template</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/27e67ac84a.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -36,13 +38,13 @@
       <!-- TABS content START -->
       <div class="tabcontent1 tab-content" id="myTabContent1">
 
-        <!-- "SEARCH" tab content START-->
+        <!-- "SEARCH" tab content START (Angel)-->
         <div class="tab-pane show active" id="search1" role="tabpanel" aria-labelledby="search1-tab">
 
           <div class="tabc1 tab-pane fade show active  px-5" id="search1" role="tabpanel" aria-labelledby="search1-tab">
             <div class="input-group row">
               <div class="input-group-prepend col-12 col-sm-2 p-0">
-                <button class="btn btn-primary dropdown-toggle w-100 font-weight-bold" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter</button>
+                <button class="btn btn-color dropdown-toggle w-100 font-weight-bold noradius" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter</button>
                 <div class="dropdown-menu">
                   <div class="form-check ml-3">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -88,7 +90,7 @@
 
         </div> <!-- "SEARCH" tab content END -->
 
-        <!-- "NEW" tab content START -->
+        <!-- "NEW" tab content START (Jal)-->
         <div class="tab-pane" role="tabpanel" id="new1" aria-labelledby="new1-tab">
 
           <div class="row">
@@ -96,7 +98,7 @@
             <div class="input-group col-sm-4 mt-5">
               <div class="customfile1 custom-file">
                 <input type="file" class="btn1 custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
-                <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                <label class="noradius custom-file-label" for="inputGroupFile01">Choose file</label>
               </div>
             </div>
             <div class="col-sm-4"></div>
@@ -104,7 +106,7 @@
 
           <div class="row mt-2">
             <div class="col-sm-5"></div>
-            <select class="btn1 custom-select col-sm-2">
+            <select class="btn1 custom-select noradius col-sm-2">
               <option selected>Doc type</option>
               <option value="1">.doc</option>
               <option value="2">.pdf</option>
@@ -115,7 +117,7 @@
 
           <div class="row mt-2">
             <div class="col-sm-4"></div>
-            <select class="btn1 custom-select col-sm-4">
+            <select class="btn1 custom-select noradius col-sm-4">
               <option selected>Search name</option>
               <option value="1">Name 1</option>
               <option value="2">Name 2</option>
@@ -125,12 +127,12 @@
           </div>
 
           <div class="upload-btn-primary d-flex justify-content-center mt-3">
-            <button class="btn1 btn btn-primary font-weight-bold">Upload</button>
+            <button class="btn1 btn btn-color font-weight-bold noradius">Upload</button>
           </div>
 
         </div> <!-- "NEW" tab content END-->
 
-        <!-- "DOWNLOAD" tab content START -->
+        <!-- "DOWNLOAD" tab content START (Ben)-->
       <div class="tabc3 tab-pane fade " id="download1" role="tabpanel" aria-labelledby="download1-tab">
             <div id="wrapper-download">
               <div class="download-pane row pb-2 mt-3 mb-2 mx-2">
@@ -156,36 +158,36 @@
                           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-download">
                             <div class="card-body filter-card">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="locationCheck1">
-                                <label class="form-check-label" for="locationCheck1">
+                                <input class="form-check-input" type="checkbox" value="" id="categoryCheck1">
+                                <label class="form-check-label" for="categoryCheck1">
                                   Contract
                                 </label>
                               </div>
                               <div class="dropdown-divider"></div>
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="locationCheck2">
-                                <label class="form-check-label" for="locationCheck2">
+                                <input class="form-check-input" type="checkbox" value="" id="categoryCheck2">
+                                <label class="form-check-label" for="categoryCheck2">
                                   VDAB
                                 </label>
                               </div>
                               <div class="dropdown-divider"></div>
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="locationCheck3">
-                                <label class="form-check-label" for="locationCheck3">
+                                <input class="form-check-input" type="checkbox" value="" id="categoryCheck3">
+                                <label class="form-check-label" for="categoryCheck3">
                                   ...
                                 </label>
                               </div>
                               <div class="dropdown-divider"></div>
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="locationCheck4">
-                                <label class="form-check-label" for="locationCheck4">
+                                <input class="form-check-input" type="checkbox" value="" id="categoryCheck4">
+                                <label class="form-check-label" for="categoryCheck4">
                                   ...
                                 </label>
                               </div>
                               <div class="dropdown-divider"></div>
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="locationCheck5">
-                                <label class="form-check-label" for="locationCheck5">
+                                <input class="form-check-input" type="checkbox" value="" id="categoryCheck5">
+                                <label class="form-check-label" for="categoryCheck5">
                                   ...
                                 </label>
                               </div>
@@ -356,7 +358,7 @@
 
                       <div class="row border-bottom">
                         <div class="col-9 order-1 col-sm-2 order-sm-1 my-2 d-flex justify-content-start">
-                          <button class="btn btn-primary btn-sm  font-weight-bold" id="menu-toggle">Filter</button>
+                          <button class="btn btn-color btn-sm  noradius font-weight-bold" id="menu-toggle">Filter</button>
                         </div>
                         <div class="col-12 order-3 col-sm-4 order-sm-2 my-3">
                           <div class="dropright">
@@ -369,12 +371,12 @@
                               <li>
                                 <div class="dropdown-divider"></div>
                               </li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              <li><a class="dropdown-item" href="#">Extra option</a></li>
                             </ul>
                           </div>
                         </div>
                         <div class="col-3 order-2 col-sm-6 order-sm-3 d-flex justify-content-end my-2">
-                          <button type="button" class="btn btn-primary btn-sm font-weight-bold">Download</button>
+                          <button type="button" class=" noradius btn btn-color btn-sm font-weight-bold">Download</button>
                         </div>
                       </div>
 
@@ -457,61 +459,61 @@
 
         </div> <!-- "DOWNLOAD" tab content END -->
 
-        <!-- "ADMIN" tab content START -->
+        <!-- "ADMIN" tab content START (Jal)-->
         <div class="tab-pane" id="admin1" role="tabpanel" aria-labelledby="admin1-tab">
 
           <div class="row">
             <div class="contentcontainer1 col-md-6 col-lg-3 mt-5">
               <button type="button" class="adminbutton1 btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#newuserpopup1">
-                <div class="adminbtn1 text-center">New user</div>
+                <div class="adminbtn1 text-center"><div class="fontawe1"><i class="fa fa-user-plus"></i></div>New user</div>
               </button>
             </div>
 
             <div class="contentcontainer1 col-md-6 col-lg-3 mt-5">
               <button type="button" class="adminbutton1 btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#edituserpopup1">
-                <div class="adminbtn1 text-center">Edit user</div>
+                <div class="adminbtn1 text-center"><div class="fontawe1"><i class="fa fa-user-plus"></i></div>Edit user</div>
               </button>
             </div>
 
             <div class="contentcontainer1 col-md-6 col-lg-3 mt-5">
               <button type="button" class="adminbutton1 btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#settingspopup1">
-                <div class="adminbtn1 text-center">Settings</div>
+                <div class="adminbtn1 text-center"><div class="fontawe1"><i class="fa fa-user-plus"></i></div>Settings</div>
               </button>
             </div>
 
             <div class="contentcontainer1 col-md-6 col-lg-3 mt-5">
               <button type="button" class="adminbutton1 btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#exampleModal1">
-                <div class="adminbtn1 text-center">Other</div>
+                <div class="adminbtn1 text-center"><div class="fontawe1"><i class="fa fa-user-plus"></i></div>Other</div>
               </button>
             </div>
 
             <div class="contentcontainer1 col-md-6 col-lg-3 mt-5">
               <button type="button" class="adminbutton1 btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#exampleModal1">
-                <div class="adminbtn1 text-center">Other</div>
+                <div class="adminbtn1 text-center"><div class="fontawe1"><i class="fa fa-user-plus"></i></div>Other</div>
               </button>
             </div>
 
             <div class="contentcontainer1 col-md-6 col-lg-3 mt-5">
               <button type="button" class="adminbutton1 btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#exampleModal1">
-                <div class="adminbtn1 text-center">Other</div>
+                <div class="adminbtn1 text-center"><div class="fontawe1"><i class="fa fa-user-plus"></i></div>Other</div>
               </button>
             </div>
 
             <div class="contentcontainer1 col-md-6 col-lg-3 mt-5">
               <button type="button" class="adminbutton1 btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#exampleModal1">
-                <div class="adminbtn1 text-center">Other</div>
+                <div class="adminbtn1 text-center"><div class="fontawe1"><i class="fa fa-user-plus"></i></div>Other</div>
               </button>
             </div>
 
             <div class="contentcontainer1 col-md-6 col-lg-3 mt-5">
               <button type="button" class="adminbutton1 btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#exampleModal1">
-                <div class="adminbtn1 text-center">Other</div>
+                <div class="adminbtn1 text-center"><div class="fontawe1"><i class="fa fa-user-plus"></i></div>Other</div>
               </button>
             </div>
 
             <div class="contentcontainer1 col-md-6 col-lg-3 mt-5">
               <button type="button" class="adminbutton1 btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#exampleModal1">
-                <div class="adminbtn1 text-center">Other</div>
+                <div class="adminbtn1 text-center"><div class="fontawe1"><i class="fa fa-user-plus"></i></div>Other</div>
               </button>
             </div>
           </div>
@@ -533,8 +535,8 @@
                 ...
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn1 closebutton1 btn btn-secondary font-weight-bold" data-dismiss="modal">Close</button>
-                <button type="button" class="btn1 savechangesbutton1 btn btn-primary font-weight-bold">Save changes</button>
+                <button type="button" class="btn1 closebutton1 btn btn-secondary font-weight-bold noradius" data-dismiss="modal">Close</button>
+                <button type="button" class="btn1 savechangesbutton1 btn btn-color font-weight-bold noradius">Save changes</button>
               </div>
             </div>
           </div>
@@ -554,8 +556,8 @@
                 ...
               </div>
               <div class="modalfooter1 modal-footer">
-                <button type="button" class="btn1 closebutton1 btn btn-secondary font-weight-bold" data-dismiss="modal">Close</button>
-                <button type="button" class="btn1 savechangesbutton1 btn btn-primary font-weight-bold">Save changes</button>
+                <button type="button" class="btn1 closebutton1 btn btn-secondary font-weight-bold noradius" data-dismiss="modal">Close</button>
+                <button type="button" class="btn1 savechangesbutton1 btn btn-color font-weight-bold noradius">Save changes</button>
               </div>
             </div>
           </div>
@@ -575,8 +577,8 @@
                 ...
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn1 closebutton1 btn btn-secondary font-weight-bold" data-dismiss="modal">Close</button>
-                <button type="button" class="btn1 savechangesbutton1 btn btn-primary font-weight-bold">Save changes</button>
+                <button type="button" class="btn1 closebutton1 btn btn-secondary font-weight-bold noradius" data-dismiss="modal">Close</button>
+                <button type="button" class="btn1 savechangesbutton1 btn btn-color font-weight-bold noradius">Save changes</button>
               </div>
             </div>
           </div>
@@ -596,8 +598,8 @@
                 ...
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn1 closebutton1 btn btn-secondary font-weight-bold" data-dismiss="modal">Close</button>
-                <button type="button" class="btn1 savechangesbutton1 btn btn-primary font-weight-bold">Save changes</button>
+                <button type="button" class="btn1 closebutton1 btn btn-secondary font-weight-bold noradius" data-dismiss="modal">Close</button>
+                <button type="button" class="btn1 savechangesbutton1 btn btn-color font-weight-bold noradius">Save changes</button>
               </div>
             </div>
           </div>
